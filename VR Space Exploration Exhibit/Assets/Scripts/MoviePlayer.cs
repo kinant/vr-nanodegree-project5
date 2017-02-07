@@ -10,12 +10,14 @@ public class MoviePlayer : MonoBehaviour {
     [SerializeField]
     private MediaPlayerCtrl m_player;
 
+    private bool isOver = false;
+
     private void OnEnable()
     {
         m_VRInteractiveItem.OnEnter += HandleOver;
         m_VRInteractiveItem.OnExit += HandleOut;
+        m_player.OnReady += HandleOnReady;
     }
-
 
     private void OnDisable()
     {
@@ -24,12 +26,20 @@ public class MoviePlayer : MonoBehaviour {
     }
 
     private void HandleOver() {
+        isOver = true;
         m_player.Play();
     }
 
     private void HandleOut() {
-        m_player.Stop();
+        isOver = false;
+        m_player.Pause();
     }
+
+    private void HandleOnReady() {
+        if (isOver)
+            m_player.Play();
+    }
+
 
 
 }
