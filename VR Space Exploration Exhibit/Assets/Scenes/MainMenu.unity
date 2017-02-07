@@ -1453,6 +1453,19 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1412858320}
   m_Script: {fileID: 11500000, guid: a3edf5a3ef96f43109eff981899ade93, type: 3}
+--- !u!114 &1029000128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029000122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df8ca43720004924be93b3ee6dc5299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VRInteractiveItem: {fileID: 1029000127}
+  num_scene_load: 3
 --- !u!1 &1038260956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,6 +2450,19 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1788104632}
   m_Script: {fileID: 11500000, guid: a3edf5a3ef96f43109eff981899ade93, type: 3}
+--- !u!114 &1561159111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1561159105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df8ca43720004924be93b3ee6dc5299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VRInteractiveItem: {fileID: 1561159110}
+  num_scene_load: 2
 --- !u!1 &1590140238 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1762030251270378, guid: ef98e005b59e5fb45b8af5bd8b81e955,
@@ -4838,7 +4864,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1966783213}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df8ca43720004924be93b3ee6dc5299, type: 3}
   m_Name: 
