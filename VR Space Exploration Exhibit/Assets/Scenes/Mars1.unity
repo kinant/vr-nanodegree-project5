@@ -150,7 +150,12 @@ Prefab:
       propertyPath: m_Name
       value: billboard2 (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2300002, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f748ae57c6c13a4a935ce652be32129, type: 2}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
   m_IsPrefabParent: 0
 --- !u!1001 &292137410
@@ -219,10 +224,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 26a926a5200a14486b5ff36ee5618a39, type: 3}
   m_PrefabInternal: {fileID: 292137410}
+--- !u!1 &333491242 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
+  m_PrefabInternal: {fileID: 271737003}
 --- !u!4 &333491243 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
   m_PrefabInternal: {fileID: 271737003}
+--- !u!114 &333491244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333491242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_strFileName: vid2.mp4
+  m_TargetMaterial:
+  - {fileID: 1228167530}
+  m_bFullScreen: 0
+  m_bSupportRockchip: 1
+  m_ScaleValue: 0
+  m_objResize: []
+  m_bLoop: 0
+  m_bAutoPlay: 1
 --- !u!1001 &524161141
 Prefab:
   m_ObjectHideFlags: 0
@@ -278,13 +307,42 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -18.726002
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2300002, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f748ae57c6c13a4a935ce652be32129, type: 2}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &583676048 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
+  m_PrefabInternal: {fileID: 524161141}
 --- !u!4 &583676049 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
   m_PrefabInternal: {fileID: 524161141}
+--- !u!114 &583676050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583676048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_strFileName: vid1.mp4
+  m_TargetMaterial:
+  - {fileID: 2083695515}
+  m_bFullScreen: 0
+  m_bSupportRockchip: 1
+  m_ScaleValue: 0
+  m_objResize: []
+  m_bLoop: 0
+  m_bAutoPlay: 1
 --- !u!1001 &603576447
 Prefab:
   m_ObjectHideFlags: 0
@@ -656,6 +714,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1228167530 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
+  m_PrefabInternal: {fileID: 271737003}
 --- !u!1001 &1460542702
 Prefab:
   m_ObjectHideFlags: 0
@@ -1115,6 +1177,10 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 26a926a5200a14486b5ff36ee5618a39, type: 3}
   m_PrefabInternal: {fileID: 2048579902}
+--- !u!1 &2083695515 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: b55e3796aad8a43c4b64834cd773c49b, type: 3}
+  m_PrefabInternal: {fileID: 524161141}
 --- !u!1 &2113607124
 GameObject:
   m_ObjectHideFlags: 0
