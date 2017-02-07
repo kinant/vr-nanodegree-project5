@@ -22,7 +22,7 @@ public class ClipAnimator : MonoBehaviour {
 	}
 
 	private void Start(){
-		HandleOver ();
+		//HandleOver ();
 	}
 
 	private void OnEnable ()
