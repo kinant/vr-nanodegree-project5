@@ -7,6 +7,9 @@ public class LoadScreenButton : MonoBehaviour {
 	[SerializeField]
 	private VRInteractiveItem m_VRInteractiveItem;
 
+    [SerializeField]
+    private string mediaName;
+
 	public int num_scene_load;
 
 	void OnEnable(){
@@ -22,6 +25,7 @@ public class LoadScreenButton : MonoBehaviour {
 		if (num_scene_load < 0 || num_scene_load >= SceneManager.sceneCountInBuildSettings) {
 			return;
 		}
-		LoadingScreenManager.LoadScene (num_scene_load);
+
+		LoadingScreenManager.LoadScene (num_scene_load, mediaName);
 	}
 }

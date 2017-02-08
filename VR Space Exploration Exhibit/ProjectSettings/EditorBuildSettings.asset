@@ -13,3 +13,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mars1.unity
   - enabled: 1
     path: Assets/Scenes/Mars2.unity
+  - enabled: 1
+    path: Assets/Scenes/Cockpit.unity
+  - enabled: 1
+    path: Assets/Scenes/SpaceCorridor.unity
+  - enabled: 1
+    path: Assets/Scenes/SpaceStation.unity

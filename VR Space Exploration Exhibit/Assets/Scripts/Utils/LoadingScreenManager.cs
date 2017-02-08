@@ -32,6 +32,11 @@ public class LoadingScreenManager : MonoBehaviour {
 	// If loading additive, link to the cameras audio listener, to avoid multiple active audio listeners
 	public AudioListener audioListener;
 
+    public MediaPlayerCtrl m_mediaPlayerCtrl;
+
+    private bool mediaOver;
+    public static string mediaName;
+
 	AsyncOperation operation;
 	Scene currentScene;
 
@@ -39,33 +44,57 @@ public class LoadingScreenManager : MonoBehaviour {
 	// IMPORTANT! This is the build index of your loading scene. You need to change this to match your actual scene index
 	static int loadingSceneIndex = 1;
 
-	public static void LoadScene(int levelNum) {				
+	public static void LoadScene(int levelNum, string n) {				
 		Application.backgroundLoadingPriority = ThreadPriority.High;
 		sceneToLoad = levelNum;
-		SceneManager.LoadScene(loadingSceneIndex);
+        mediaName = n;
+        SceneManager.LoadScene(loadingSceneIndex);
 	}
 
-	void Start() {
+    private void Awake()
+    {
+        //m_mediaPlayerCtrl.m_strFileName = "mars360.mp4";
+    }
+
+    private void OnEnable()
+    {
+        m_mediaPlayerCtrl.OnEnd += MediaPlayOver;
+    }
+
+    private void OnDisable()
+    {
+        m_mediaPlayerCtrl.OnEnd -= MediaPlayOver;
+    }
+
+    void MediaPlayOver()
+    {
+        mediaOver = true;
+    }
+
+    void Start() {
 		if (sceneToLoad < 0)
 			return;
 
-		fadeOverlay.gameObject.SetActive(true); // Making sure it's on so that we can crossfade Alpha
+        mediaOver = false;
+
+        fadeOverlay.gameObject.SetActive(true); // Making sure it's on so that we can crossfade Alpha
 		currentScene = SceneManager.GetActiveScene();
 		StartCoroutine(LoadAsync(sceneToLoad));
 	}
 
-	private IEnumerator LoadAsync(int levelNum) {
+    private IEnumerator LoadAsync(int levelNum) {
 		ShowLoadingVisuals();
+        m_mediaPlayerCtrl.Load(mediaName);
 
-		yield return null; 
+        yield return null; 
 
 		FadeIn();
-		StartOperation(levelNum);
+        StartOperation(levelNum);
 
 		float lastProgress = 0f;
 
 		// operation does not auto-activate scene, so it's stuck at 0.9
-		while (DoneLoading() == false) {
+		while (DoneLoading() == false && mediaOver == false) {
 			yield return null;
 
 			if (Mathf.Approximately(operation.progress, lastProgress) == false) {
@@ -101,12 +130,13 @@ public class LoadingScreenManager : MonoBehaviour {
 	}
 
 	private bool DoneLoading() {
-		return (loadSceneMode == LoadSceneMode.Additive && operation.isDone) || (loadSceneMode == LoadSceneMode.Single && operation.progress >= 0.9f); 
-	}
+		return (mediaOver && loadSceneMode == LoadSceneMode.Additive && operation.isDone) || (mediaOver && loadSceneMode == LoadSceneMode.Single && operation.progress >= 0.9f);
+        // return (loadSceneMode == LoadSceneMode.Additive && operation.isDone) || (loadSceneMode == LoadSceneMode.Single && operation.progress >= 0.9f);
+    }
 
-	void FadeIn() {
+    void FadeIn() {
 		fadeOverlay.CrossFadeAlpha(0, fadeDuration, true);
-	}
+    }
 
 	void FadeOut() {
 		fadeOverlay.CrossFadeAlpha(1, fadeDuration, true);
@@ -127,5 +157,4 @@ public class LoadingScreenManager : MonoBehaviour {
 		progressBar.fillAmount = 1f;
 		loadingText.text = "LOADING DONE";
 	}
-
 }

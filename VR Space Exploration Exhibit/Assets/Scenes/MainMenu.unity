@@ -1207,6 +1207,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_srcVideo: {fileID: 674430933}
+--- !u!114 &674430935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674430930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df8ca43720004924be93b3ee6dc5299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VRInteractiveItem: {fileID: 674430931}
+  mediaName: space360.mp4
+  num_scene_load: 6
 --- !u!1 &678335075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,8 +1262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00241d83cc771416a9b864298952f9fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PopSpeed: 0
-  m_PopDistance: 0
+  m_PopSpeed: 8
+  m_PopDistance: 0.5
   m_MoveSpeed: 7
   m_ParentTransform: {fileID: 678335076}
   m_ChildTransform: {fileID: 1811728380}
@@ -1465,6 +1479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1029000127}
+  mediaName: rover360.mp4
   num_scene_load: 3
 --- !u!1 &1038260956
 GameObject:
@@ -1597,6 +1612,20 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1879126846}
   m_Script: {fileID: 11500000, guid: a3edf5a3ef96f43109eff981899ade93, type: 3}
+--- !u!114 &1152649431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1152649425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df8ca43720004924be93b3ee6dc5299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VRInteractiveItem: {fileID: 1152649430}
+  mediaName: marsexperience.mp4
+  num_scene_load: 5
 --- !u!1001 &1412858320
 Prefab:
   m_ObjectHideFlags: 0
@@ -2462,27 +2491,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1561159110}
+  mediaName: marslanding360.mp4
   num_scene_load: 2
---- !u!1 &1590140238 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1762030251270378, guid: ef98e005b59e5fb45b8af5bd8b81e955,
-    type: 2}
-  m_PrefabInternal: {fileID: 1434416965}
---- !u!114 &1590140239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1590140238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e330faaee40a44914a7a28f410e83c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointerObject: {fileID: 1859574891}
-  mask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!1001 &1652142244
 Prefab:
   m_ObjectHideFlags: 0
@@ -4047,11 +4057,6 @@ Transform:
   m_Father: {fileID: 148510889}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1859574891 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1020387793344086, guid: ef98e005b59e5fb45b8af5bd8b81e955,
-    type: 2}
-  m_PrefabInternal: {fileID: 1434416965}
 --- !u!1001 &1879126846
 Prefab:
   m_ObjectHideFlags: 0
@@ -4864,13 +4869,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1966783213}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df8ca43720004924be93b3ee6dc5299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1966783214}
-  num_scene_load: 2
+  mediaName: takeoff360.mp4
+  num_scene_load: 4
 --- !u!1 &2114512282
 GameObject:
   m_ObjectHideFlags: 0
