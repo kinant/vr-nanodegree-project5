@@ -90,7 +90,7 @@ NavMeshSettings:
     manualCellSize: 0
     cellSize: 0.16666667
     accuratePlacement: 0
-  m_NavMeshData: {fileID: 23800000, guid: 202e8680d17504beda19d54352c37ae6, type: 2}
+  m_NavMeshData: {fileID: 0}
 --- !u!4 &60023019 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362,
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 166519909}
-  waypointName: 
+  waypointName: w5
   neighbors: []
 --- !u!199 &166519911
 ParticleSystemRenderer:
@@ -346,7 +346,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -2073629760
+  randomSeed: -1934341875
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3035,6 +3035,11 @@ Prefab:
       propertyPath: neighbors.Array.data[0]
       value: 
       objectReference: {fileID: 1625690172}
+    - target: {fileID: 114510480278546612, guid: a2f13ff75b6594cdf849af844abf77e6,
+        type: 2}
+      propertyPath: waypointName
+      value: w1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
   m_IsPrefabParent: 0
@@ -3149,7 +3154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 341683707}
-  waypointName: 
+  waypointName: w3
   neighbors:
   - {fileID: 1625690172}
   - {fileID: 474676934}
@@ -3260,7 +3265,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1101323188
+  randomSeed: -197956431
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -6132,7 +6137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 474676936}
-  waypointName: 
+  waypointName: w4
   neighbors:
   - {fileID: 341683705}
   - {fileID: 166519907}
@@ -6243,7 +6248,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 811608902
+  randomSeed: -477239511
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8919,9 +8924,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1029774545946864, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901128118186786, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114508332788924336, guid: ef98e005b59e5fb45b8af5bd8b81e955,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114508332788924336, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &689185411 stripped
@@ -9303,7 +9318,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4260474442694154, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.14
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 4260474442694154, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9372,7 +9387,7 @@ Transform:
   m_PrefabInternal: {fileID: 1625690171}
   m_GameObject: {fileID: 1625690172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 2.14, z: 18.2}
+  m_LocalPosition: {x: 0.7, y: 5.3, z: 18.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1169185916}
@@ -9401,7 +9416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1625690174}
-  waypointName: 
+  waypointName: w2
   neighbors:
   - {fileID: 171687354}
   - {fileID: 341683705}
@@ -9512,7 +9527,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1939006169
+  randomSeed: 1744798369
   InitialModule:
     serializedVersion: 3
     enabled: 1

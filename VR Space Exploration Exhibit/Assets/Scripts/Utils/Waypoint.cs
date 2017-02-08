@@ -40,7 +40,7 @@ public class Waypoint : MonoBehaviour {
 	}
 
 	private void HandleTrigger(){
-		// Debug.Log ("Trigger waypoint: " + waypointName);
+		Debug.Log ("Trigger waypoint: " + waypointName);
 		network.WaypointSelected(this.gameObject);
 	}
 

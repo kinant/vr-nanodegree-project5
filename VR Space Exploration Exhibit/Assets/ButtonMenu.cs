@@ -5,7 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class ButtonMenu : MonoBehaviour {
 
-	public void MenuButtonClicked(){
+	[SerializeField]
+	private VRInteractiveItem m_VRInteractiveItem;
+
+	void OnEnable(){
+		m_VRInteractiveItem.OnTrigger += MenuButtonClicked;
+	}
+
+	void OnDisabled(){
+		m_VRInteractiveItem.OnTrigger -= MenuButtonClicked;
+	}
+		
+	void MenuButtonClicked(){
 		SceneManager.LoadScene ("MainMenu");
 	}
 

@@ -1162,51 +1162,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 674430928}
   m_Script: {fileID: 11500000, guid: a3edf5a3ef96f43109eff981899ade93, type: 3}
---- !u!114 &674430932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 674430930}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e3a9ef5e43c4546943288a02f8969b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_VRInteractiveItem: {fileID: 674430931}
-  m_player: {fileID: 674430933}
---- !u!114 &674430933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 674430930}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_strFileName: vid1.mp4
-  m_TargetMaterial:
-  - {fileID: 674430930}
-  m_bFullScreen: 0
-  m_bSupportRockchip: 1
-  m_ScaleValue: 0
-  m_objResize: []
-  m_bLoop: 0
-  m_bAutoPlay: 0
---- !u!114 &674430934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 674430930}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a41c2b2ac31fa046a7665c966657a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_srcVideo: {fileID: 674430933}
 --- !u!114 &674430935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1416,51 +1371,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4244670230799180, guid: 71faecdcf4c8f6d4198acd98903ca669,
     type: 2}
   m_PrefabInternal: {fileID: 1412858320}
---- !u!114 &1029000124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1029000122}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a41c2b2ac31fa046a7665c966657a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_srcVideo: {fileID: 1029000125}
---- !u!114 &1029000125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1029000122}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_strFileName: vid1.mp4
-  m_TargetMaterial:
-  - {fileID: 1029000122}
-  m_bFullScreen: 0
-  m_bSupportRockchip: 1
-  m_ScaleValue: 0
-  m_objResize: []
-  m_bLoop: 0
-  m_bAutoPlay: 0
---- !u!114 &1029000126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1029000122}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e3a9ef5e43c4546943288a02f8969b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_VRInteractiveItem: {fileID: 1029000127}
-  m_player: {fileID: 1029000125}
 --- !u!114 &1029000127 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114261976000667186, guid: 71faecdcf4c8f6d4198acd98903ca669,
@@ -1561,51 +1471,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4244670230799180, guid: 71faecdcf4c8f6d4198acd98903ca669,
     type: 2}
   m_PrefabInternal: {fileID: 1879126846}
---- !u!114 &1152649427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1152649425}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a41c2b2ac31fa046a7665c966657a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_srcVideo: {fileID: 1152649428}
---- !u!114 &1152649428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1152649425}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_strFileName: vid1.mp4
-  m_TargetMaterial:
-  - {fileID: 1152649425}
-  m_bFullScreen: 0
-  m_bSupportRockchip: 1
-  m_ScaleValue: 0
-  m_objResize: []
-  m_bLoop: 0
-  m_bAutoPlay: 0
---- !u!114 &1152649429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1152649425}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e3a9ef5e43c4546943288a02f8969b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_VRInteractiveItem: {fileID: 1152649430}
-  m_player: {fileID: 1152649428}
 --- !u!114 &1152649430 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114261976000667186, guid: 71faecdcf4c8f6d4198acd98903ca669,
@@ -2428,51 +2293,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4244670230799180, guid: 71faecdcf4c8f6d4198acd98903ca669,
     type: 2}
   m_PrefabInternal: {fileID: 1788104632}
---- !u!114 &1561159107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1561159105}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a41c2b2ac31fa046a7665c966657a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_srcVideo: {fileID: 1561159108}
---- !u!114 &1561159108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1561159105}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_strFileName: vid1.mp4
-  m_TargetMaterial:
-  - {fileID: 1561159105}
-  m_bFullScreen: 0
-  m_bSupportRockchip: 1
-  m_ScaleValue: 0
-  m_objResize: []
-  m_bLoop: 0
-  m_bAutoPlay: 0
---- !u!114 &1561159109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1561159105}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e3a9ef5e43c4546943288a02f8969b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_VRInteractiveItem: {fileID: 1561159110}
-  m_player: {fileID: 1561159108}
 --- !u!114 &1561159110 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114261976000667186, guid: 71faecdcf4c8f6d4198acd98903ca669,
@@ -4818,51 +4638,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1652142244}
   m_Script: {fileID: 11500000, guid: a3edf5a3ef96f43109eff981899ade93, type: 3}
---- !u!114 &1966783215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1966783213}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb521e9ace49d8546a83f420a0debd12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_strFileName: vid1.mp4
-  m_TargetMaterial:
-  - {fileID: 1966783213}
-  m_bFullScreen: 0
-  m_bSupportRockchip: 1
-  m_ScaleValue: 0
-  m_objResize: []
-  m_bLoop: 0
-  m_bAutoPlay: 0
---- !u!114 &1966783216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1966783213}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e3a9ef5e43c4546943288a02f8969b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_VRInteractiveItem: {fileID: 1966783214}
-  m_player: {fileID: 1966783215}
---- !u!114 &1966783217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1966783213}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a41c2b2ac31fa046a7665c966657a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_srcVideo: {fileID: 1966783215}
 --- !u!114 &1966783218
 MonoBehaviour:
   m_ObjectHideFlags: 0
