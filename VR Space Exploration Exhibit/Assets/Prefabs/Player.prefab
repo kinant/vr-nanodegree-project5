@@ -128,7 +128,6 @@ GameObject:
   - component: {fileID: 92792231850108696}
   - component: {fileID: 124230455918786010}
   - component: {fileID: 81759758042443580}
-  - component: {fileID: 114260248024896096}
   - component: {fileID: 114016774914353350}
   m_Layer: 0
   m_Name: Main Camera
@@ -147,7 +146,6 @@ GameObject:
   - component: {fileID: 224945827795097762}
   - component: {fileID: 223213547285081514}
   - component: {fileID: 114747559637717562}
-  - component: {fileID: 114508332788924336}
   m_Layer: 5
   m_Name: CanvasMenu
   m_TagString: Untagged
@@ -204,8 +202,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1351180320240724}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -28.3, y: 1.24, z: 5.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224945827795097762}
@@ -505,21 +503,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114260248024896096
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1762030251270378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e330faaee40a44914a7a28f410e83c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointerObject: {fileID: 1020387793344086}
-  mask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &114343672399864294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -565,22 +548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 114751983953553024}
---- !u!114 &114508332788924336
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1901128118186786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &114747559637717562
 MonoBehaviour:
   m_ObjectHideFlags: 1
