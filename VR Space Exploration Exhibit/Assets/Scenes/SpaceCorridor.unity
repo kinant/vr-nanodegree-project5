@@ -730,7 +730,7 @@ Transform:
   - {fileID: 1352959655}
   - {fileID: 102422005}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &724640528
 Prefab:
@@ -742,7 +742,7 @@ Prefab:
     - target: {fileID: 114510480278546612, guid: a2f13ff75b6594cdf849af844abf77e6,
         type: 2}
       propertyPath: neighbors.Array.size
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4652058923525332, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -785,6 +785,16 @@ Prefab:
       propertyPath: m_Name
       value: Waypoint (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114510480278546612, guid: a2f13ff75b6594cdf849af844abf77e6,
+        type: 2}
+      propertyPath: neighbors.Array.data[0]
+      value: 
+      objectReference: {fileID: 1235594622}
+    - target: {fileID: 114510480278546612, guid: a2f13ff75b6594cdf849af844abf77e6,
+        type: 2}
+      propertyPath: neighbors.Array.data[1]
+      value: 
+      objectReference: {fileID: 1164437018}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
   m_IsPrefabParent: 0
@@ -926,7 +936,7 @@ Transform:
   - {fileID: 1135787779}
   - {fileID: 1164437017}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1031238491
 MonoBehaviour:
@@ -1016,7 +1026,7 @@ Prefab:
     - target: {fileID: 114510480278546612, guid: a2f13ff75b6594cdf849af844abf77e6,
         type: 2}
       propertyPath: neighbors.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652058923525332, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1059,12 +1069,22 @@ Prefab:
       propertyPath: m_Name
       value: Waypoint (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114510480278546612, guid: a2f13ff75b6594cdf849af844abf77e6,
+        type: 2}
+      propertyPath: neighbors.Array.data[0]
+      value: 
+      objectReference: {fileID: 1135787778}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1164437017 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4652058923525332, guid: a2f13ff75b6594cdf849af844abf77e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1164437016}
+--- !u!1 &1164437018 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1857186162313074, guid: a2f13ff75b6594cdf849af844abf77e6,
     type: 2}
   m_PrefabInternal: {fileID: 1164437016}
 --- !u!1001 &1184459367
@@ -1104,7 +1124,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4734798052777014, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1029774545946864, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
       propertyPath: m_IsActive
@@ -1156,7 +1176,7 @@ Transform:
   - {fileID: 526558369}
   - {fileID: 176935928}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1330128117 stripped
 MonoBehaviour:
@@ -1315,7 +1335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1494,8 +1514,8 @@ Prefab:
     - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
         type: 2}
       propertyPath: m_Text
-      value: "Another NASA Experience, \nengineers can explore detailed \nmodels of
-        spacecraft and \nMachinery as they are designed. "
+      value: "In another NASA Experience, \nengineers can explore detailed \nmodels
+        of spacecraft and \nMachinery as they are designed. "
       objectReference: {fileID: 0}
     - target: {fileID: 224043535596611696, guid: fb2284945afcb428b882021c31a114b5,
         type: 2}
@@ -1702,6 +1722,90 @@ Prefab:
       objectReference: {fileID: 1235594622}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2f13ff75b6594cdf849af844abf77e6, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1891887704
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 18.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608337115242676, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 306d677e0f20c374baf82e1c62faca84, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1913902019
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 28.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674861047249144, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6bd32262003118c4dba0e9cc7a66aa15, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &2006924089
 GameObject:
