@@ -428,6 +428,42 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.31792897
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71573e38a3ac28f40894e62cced3d9ad, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71573e38a3ac28f40894e62cced3d9ad, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 938634024281ad748b05ded8d31c9af6, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d5ee689afe3baa41b61476b3d3089e9, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a7454061ea18d74a980a84ea3d5d5da, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 871b5bbbd6e4afd45b36c8b90db1ad70, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90946e5ddd4716b4d8e58140d098bb0a, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
+    - target: {fileID: 2300000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
+      propertyPath: m_Materials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71573e38a3ac28f40894e62cced3d9ad, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c355ba34ff3e84010ba4168fe37006f4, type: 3}
   m_IsPrefabParent: 0
@@ -634,7 +670,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2cb30cc472d2544cd9080268ade3eb94, type: 2}
+  - {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -868,7 +904,7 @@ Prefab:
     - target: {fileID: 114552387571699936, guid: ef98e005b59e5fb45b8af5bd8b81e955,
         type: 2}
       propertyPath: sourceVolume
-      value: 0.195
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 114552387571699936, guid: ef98e005b59e5fb45b8af5bd8b81e955,
         type: 2}
@@ -1053,18 +1089,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 22.93
-      objectReference: {fileID: 0}
-    - target: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
+    - target: {fileID: 114991785419629344, guid: be6d03d5b6c6f45289c28f0855986362,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75c528078c5f34dda9164250d637f60f,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
   m_IsPrefabParent: 0
@@ -1107,22 +1137,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 144.52301
-      objectReference: {fileID: 0}
     - target: {fileID: 1410350185707986, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
       propertyPath: m_Name
       value: billboard_image_3 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4642064351327640, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
+    - target: {fileID: 23350428540161820, guid: be6d03d5b6c6f45289c28f0855986362,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
+    - target: {fileID: 114991785419629344, guid: be6d03d5b6c6f45289c28f0855986362,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94ccd08e640f04d978031a1f44a82933,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be6d03d5b6c6f45289c28f0855986362, type: 2}
   m_IsPrefabParent: 0
@@ -1193,6 +1222,11 @@ Prefab:
       propertyPath: m_Text
       value: VR Rover Control
       objectReference: {fileID: 0}
+    - target: {fileID: 23050464894629856, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb2284945afcb428b882021c31a114b5, type: 2}
   m_IsPrefabParent: 0
@@ -1303,7 +1337,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2cb30cc472d2544cd9080268ade3eb94, type: 2}
+  - {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1588,7 +1622,7 @@ MonoBehaviour:
   bypassRoomEffects: 0
   directivityAlpha: 0
   directivitySharpness: 1
-  gainDb: 0
+  gainDb: 4.8
   occlusionEnabled: 0
   playOnAwake: 1
   rolloffMode: 0
@@ -1597,7 +1631,7 @@ MonoBehaviour:
   sourceLoop: 0
   sourceMute: 0
   sourcePitch: 1
-  sourcePriority: 180
+  sourcePriority: 256
   sourceVolume: 1
   sourceMaxDistance: 500
   sourceMinDistance: 0
@@ -1688,29 +1722,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4385396147988458, guid: fb2284945afcb428b882021c31a114b5, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
     - target: {fileID: 1333632356631584, guid: fb2284945afcb428b882021c31a114b5, type: 2}
       propertyPath: m_Name
       value: billboard_text_1 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
-        type: 2}
-      propertyPath: m_Text
-      value: Controlling the Rover
-      objectReference: {fileID: 0}
-    - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
-        type: 2}
-      propertyPath: m_Text
-      value: "In an experimental experience, \nresearchers were able to explore \nthe
-        surface of mars and set \ncourses and targets for a rover. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 224043535596611696, guid: fb2284945afcb428b882021c31a114b5,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 207
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb2284945afcb428b882021c31a114b5, type: 2}

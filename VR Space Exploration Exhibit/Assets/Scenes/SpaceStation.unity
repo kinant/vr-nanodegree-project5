@@ -1198,6 +1198,11 @@ Prefab:
       propertyPath: sourceClip
       value: 
       objectReference: {fileID: 8300000, guid: 36c8e29a34315114fa6063d061170eb1, type: 3}
+    - target: {fileID: 114552387571699936, guid: ef98e005b59e5fb45b8af5bd8b81e955,
+        type: 2}
+      propertyPath: sourceVolume
+      value: 0.16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
   m_IsPrefabParent: 0
@@ -2725,10 +2730,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 378784588}
   waypoints:
-  - {fileID: 0}
   - {fileID: 361530168}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 728069537}
+  - {fileID: 1617967452}
+  - {fileID: 2047356870}
 --- !u!1 &1006708907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,7 +2813,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4981243861172442, guid: 04e3730594740cf44ba80e4e9079e06c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -50.61
+      value: -53.8
       objectReference: {fileID: 0}
     - target: {fileID: 4981243861172442, guid: 04e3730594740cf44ba80e4e9079e06c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3164,7 +3169,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Start Tour
 --- !u!222 &1246567806
 CanvasRenderer:
   m_ObjectHideFlags: 0

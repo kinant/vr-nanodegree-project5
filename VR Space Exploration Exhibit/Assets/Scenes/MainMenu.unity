@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 674430931}
   mediaName: space360.mp4
-  num_scene_load: 6
+  num_scene_load: 7
 --- !u!1 &678335075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1029000127}
   mediaName: rover360.mp4
-  num_scene_load: 3
+  num_scene_load: 4
 --- !u!1 &1038260956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1152649430}
   mediaName: marsexperience.mp4
-  num_scene_load: 5
+  num_scene_load: 6
 --- !u!1001 &1412858320
 Prefab:
   m_ObjectHideFlags: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1561159110}
   mediaName: marslanding360.mp4
-  num_scene_load: 2
+  num_scene_load: 3
 --- !u!1001 &1652142244
 Prefab:
   m_ObjectHideFlags: 0
@@ -4593,7 +4593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VRInteractiveItem: {fileID: 1966783214}
   mediaName: takeoff360.mp4
-  num_scene_load: 4
+  num_scene_load: 5
 --- !u!1 &2114512282
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,11 +8,13 @@ public class CanvasManager : MonoBehaviour {
 	public GameObject nextCanvas;
 
 	void OnEnable(){
-		m_interactiveItem.OnTrigger += ButtonClicked;
+		if(m_interactiveItem != null)
+			m_interactiveItem.OnTrigger += ButtonClicked;
 	}
 
 	void OnDisable(){
-		m_interactiveItem.OnTrigger -= ButtonClicked;
+		if(m_interactiveItem != null)
+			m_interactiveItem.OnTrigger -= ButtonClicked;
 	}
 
 	private void ButtonClicked(){

@@ -162,8 +162,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1333632356631584}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -9.66, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.8, y: 3.4, z: 23.3}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 4211291105110754}
@@ -185,7 +185,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2cb30cc472d2544cd9080268ade3eb94, type: 2}
+  - {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -216,7 +216,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2cb30cc472d2544cd9080268ade3eb94, type: 2}
+  - {fileID: 2100000, guid: 842f072dd7c3fde4c9b614c51897ebb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Welcome to Space Exhibition!
+  m_Text: Controlling the Rover
 --- !u!114 &114947981702411016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -394,10 +394,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Lorem Ipsum is simply dummy text of \nthe printing and typesetting industry.
-    \nLorem Ipsum has been the industry's \nstandard dummy text ever since the \n1500s,
-    when an unknown printer took \na galley of type and scrambled it to \nmake a type
-    specimen book."
+  m_Text: "In an experimental experience, \nresearchers were able to explore \nthe
+    surface of mars and set \ncourses and targets for a rover. "
 --- !u!222 &222070541762388862
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -450,7 +448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 318}
+  m_AnchoredPosition: {x: 0, y: 207}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224408433381576826
