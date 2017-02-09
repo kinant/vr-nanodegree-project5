@@ -15,11 +15,13 @@ public class WaypointNetworkNavigation : MonoBehaviour {
 
 		// disable all the waypoints
 		foreach (GameObject w in waypoints) {
-			w.SetActive (false);
+            w.GetComponentInParent<ParticleSystem>().Stop();
+            w.SetActive (false);
 		}
 		// enable just the first waypoint
 		waypoints[0].SetActive(true);
-	}
+        waypoints[0].GetComponentInParent<ParticleSystem>().Play();
+    }
 
 	public void WaypointSelected(GameObject w){
 
@@ -41,8 +43,9 @@ public class WaypointNetworkNavigation : MonoBehaviour {
 
 		// disable current waypoint
 		w.SetActive(false);
+        w.GetComponentInParent<ParticleSystem>().Stop();
 
-		// move the player
-		player.moveTo (currentWaypoint.transform.position);
+        // move the player
+        player.moveTo (currentWaypoint.transform.position);
 	}
 }
