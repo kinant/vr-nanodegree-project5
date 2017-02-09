@@ -33,6 +33,7 @@ public class TapSurface : MonoBehaviour {
 			Debug.Log ("Target hit: " + hit.collider.tag);
 			Debug.Log ("hit position: " + hit.point);
 			roverNavMeshAgent.destination = hit.point;
+            roverNavMeshAgent.gameObject.GetComponent<GvrAudioSource>().Play();
 		}
 	}
 }

@@ -47,5 +47,6 @@ public class WaypointNetworkNavigation : MonoBehaviour {
 
         // move the player
         player.moveTo (currentWaypoint.transform.position);
+        player.gameObject.GetComponent<GvrAudioSource>().Play();
 	}
 }
