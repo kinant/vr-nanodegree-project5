@@ -49,16 +49,18 @@ public class Waypoint : MonoBehaviour {
 			return;
 
 		foreach (GameObject n in neighbors) {
-			n.gameObject.SetActive (true);
-		}
-	}
+            n.gameObject.GetComponentInParent<ParticleSystem>().Play();
+            n.gameObject.SetActive (true);
+        }
+    }
 
 	public void DisableNeighbors(){
 		if (!(neighbors.Length > 0))
 			return;
 
 		foreach (GameObject n in neighbors) {
-			n.gameObject.SetActive (false);
+            n.gameObject.GetComponentInParent<ParticleSystem>().Stop();
+            n.gameObject.SetActive (false);
 		}
 	}
 }
