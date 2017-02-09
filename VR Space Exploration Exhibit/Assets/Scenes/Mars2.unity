@@ -865,6 +865,16 @@ Prefab:
       propertyPath: sourceClip
       value: 
       objectReference: {fileID: 8300000, guid: 720ea83cc232bbd478020d8374d882e3, type: 3}
+    - target: {fileID: 114552387571699936, guid: ef98e005b59e5fb45b8af5bd8b81e955,
+        type: 2}
+      propertyPath: sourceVolume
+      value: 0.195
+      objectReference: {fileID: 0}
+    - target: {fileID: 114552387571699936, guid: ef98e005b59e5fb45b8af5bd8b81e955,
+        type: 2}
+      propertyPath: sourcePriority
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
   m_IsPrefabParent: 0
@@ -1587,7 +1597,7 @@ MonoBehaviour:
   sourceLoop: 0
   sourceMute: 0
   sourcePitch: 1
-  sourcePriority: 128
+  sourcePriority: 180
   sourceVolume: 1
   sourceMaxDistance: 500
   sourceMinDistance: 0
