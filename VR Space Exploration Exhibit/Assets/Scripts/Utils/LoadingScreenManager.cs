@@ -14,10 +14,10 @@ using UnityEngine.SceneManagement;
 public class LoadingScreenManager : MonoBehaviour {
 
 	[Header("Loading Visuals")]
-	public Image loadingIcon;
-	public Image loadingDoneIcon;
-	public Text loadingText;
-	public Image progressBar;
+	// public Image loadingIcon;
+	// public Image loadingDoneIcon;
+	// public Text loadingText;
+	// public Image progressBar;
 	public Image fadeOverlay;
 
 	[Header("Timing Settings")]
@@ -36,6 +36,8 @@ public class LoadingScreenManager : MonoBehaviour {
 
     private bool mediaOver;
     public static string mediaName;
+
+    public GameObject temporarySign;
 
 	AsyncOperation operation;
 	Scene currentScene;
@@ -79,8 +81,18 @@ public class LoadingScreenManager : MonoBehaviour {
 
         fadeOverlay.gameObject.SetActive(true); // Making sure it's on so that we can crossfade Alpha
 		currentScene = SceneManager.GetActiveScene();
+
+        Destroy(temporarySign, 3);
+
 		StartCoroutine(LoadAsync(sceneToLoad));
 	}
+
+    private void Update()
+    {
+        if (GvrViewer.Instance.Triggered) {
+            mediaOver = true;
+        }
+    }
 
     private IEnumerator LoadAsync(int levelNum) {
 		ShowLoadingVisuals();
@@ -98,7 +110,7 @@ public class LoadingScreenManager : MonoBehaviour {
 			yield return null;
 
 			if (Mathf.Approximately(operation.progress, lastProgress) == false) {
-				progressBar.fillAmount = operation.progress;
+				// progressBar.fillAmount = operation.progress;
 				lastProgress = operation.progress;
 			}
 		}
@@ -143,18 +155,18 @@ public class LoadingScreenManager : MonoBehaviour {
 	}
 
 	void ShowLoadingVisuals() {
-		loadingIcon.gameObject.SetActive(true);
-		loadingDoneIcon.gameObject.SetActive(false);
+		// loadingIcon.gameObject.SetActive(true);
+		// loadingDoneIcon.gameObject.SetActive(false);
 
-		progressBar.fillAmount = 0f;
-		loadingText.text = "LOADING...";
+		// progressBar.fillAmount = 0f;
+		// loadingText.text = "LOADING...";
 	}
 
 	void ShowCompletionVisuals() {
-		loadingIcon.gameObject.SetActive(false);
-		loadingDoneIcon.gameObject.SetActive(true);
+		// loadingIcon.gameObject.SetActive(false);
+		// loadingDoneIcon.gameObject.SetActive(true);
 
-		progressBar.fillAmount = 1f;
-		loadingText.text = "LOADING DONE";
+		// progressBar.fillAmount = 1f;
+		// loadingText.text = "LOADING DONE";
 	}
 }
