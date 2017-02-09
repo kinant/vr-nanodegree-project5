@@ -229,6 +229,19 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: SLS Experience
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: "\u201CWhat this does is give them\n the feeling of being 325ft in \nthe
+        air where the astronauts sit, \nso they can look down and see how\n tall the
+        rocket actually is\u201D \n\n\u2013 Tray Cate, \nCommunications Lead for\nthe
+        SLS Program."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb2284945afcb428b882021c31a114b5, type: 2}
   m_IsPrefabParent: 0
@@ -355,6 +368,23 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: Walking On Mars
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: "One of NASA\u2019s VR Experiences \nis to explore the surface of Mars.
+        \nThey hope to demonstrate the \nresearch and exploration capabilities\n of
+        AR/VR technology."
+      objectReference: {fileID: 0}
+    - target: {fileID: 224043535596611696, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 176
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb2284945afcb428b882021c31a114b5, type: 2}
   m_IsPrefabParent: 0
@@ -431,7 +461,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4007419286217802, guid: f7dae52cc0c7e4dc88a3b163c7b41093, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 41.097
+      value: 38.03
       objectReference: {fileID: 0}
     - target: {fileID: 4007419286217802, guid: f7dae52cc0c7e4dc88a3b163c7b41093, type: 2}
       propertyPath: m_LocalRotation.x
@@ -510,7 +540,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4343008157470184, guid: cb6610206f2d74e128c2b23e20abc3c4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 21
+      value: 19.98
       objectReference: {fileID: 0}
     - target: {fileID: 4343008157470184, guid: cb6610206f2d74e128c2b23e20abc3c4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -822,7 +852,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4343008157470184, guid: cb6610206f2d74e128c2b23e20abc3c4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.85
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 4343008157470184, guid: cb6610206f2d74e128c2b23e20abc3c4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -887,7 +917,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1031238489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0857794, y: 1.8788948, z: -13.744846}
+  m_LocalPosition: {x: 1.0857794, y: 1.8788948, z: -10.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 424985211}
@@ -1078,7 +1108,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1029774545946864, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef98e005b59e5fb45b8af5bd8b81e955, type: 2}
@@ -1115,7 +1145,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1235736576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1634665637}
@@ -1248,6 +1278,93 @@ Transform:
   m_PrefabParentObject: {fileID: 4092056657193036, guid: ef32f464407584e5a8807346d944edd2,
     type: 2}
   m_PrefabInternal: {fileID: 1379177067}
+--- !u!1001 &1410638538
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -19.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180504134338164, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 114165210222826542, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_Text
+      value: Introduction
+      objectReference: {fileID: 0}
+    - target: {fileID: 114088799944868536, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_Text
+      value: "NASA is working with VR \ncompanies and developers \nto provide immersive
+        experiences \nof space exploration to draw more \nattention to their projects."
+      objectReference: {fileID: 0}
+    - target: {fileID: 224447728466970472, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 299
+      objectReference: {fileID: 0}
+    - target: {fileID: 114783399577986638, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_Text
+      value: Continue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866778643400884, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114019705208270514, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_Text
+      value: "Use the waypoints to navigate\naround the scene and to learn more.\n\nClick
+        the home waypoint to return to \nthe menu."
+      objectReference: {fileID: 0}
+    - target: {fileID: 224277066787286462, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 328
+      objectReference: {fileID: 0}
+    - target: {fileID: 114106225340346366, guid: b819bafb96ff949eebd8d5525f662989,
+        type: 2}
+      propertyPath: m_Text
+      value: Start Tour
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b819bafb96ff949eebd8d5525f662989, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1467098223
 Prefab:
   m_ObjectHideFlags: 0
@@ -1369,6 +1486,22 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: Protospace
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: "Another NASA Experience, \nengineers can explore detailed \nmodels of
+        spacecraft and \nMachinery as they are designed. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 224043535596611696, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 133
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb2284945afcb428b882021c31a114b5, type: 2}
   m_IsPrefabParent: 0
@@ -1427,6 +1560,23 @@ Prefab:
     - target: {fileID: 4385396147988458, guid: fb2284945afcb428b882021c31a114b5, type: 2}
       propertyPath: m_LocalScale.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: SLS Experience
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_Text
+      value: "NASA created a recreation of \nthe conditions on pad 39B at \nCaper
+        Carnival before the launch \nof the SLS rocket, the largest and \nmost powerful
+        rocket. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 224043535596611696, guid: fb2284945afcb428b882021c31a114b5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 189
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb2284945afcb428b882021c31a114b5, type: 2}
