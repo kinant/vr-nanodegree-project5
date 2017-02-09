@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: InSideSphere
-  m_Shader: {fileID: 4800000, guid: 85e2bd710e5647845925d8105e9949f9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 63db1b06e0f894303bc7a4b0f028bd2f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
