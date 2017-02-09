@@ -498,6 +498,22 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.0009999999
       objectReference: {fileID: 0}
+    - target: {fileID: 114815124580074428, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_Text
+      value: Prelimiary Test Results
+      objectReference: {fileID: 0}
+    - target: {fileID: 114911878079856652, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_Text
+      value: "Astronauts feel closer to their\n family compared to control groups.\n
+        There is a reduced sense of time \nand overall reduction of stress. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888888969510952, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 154
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 72272049cf4f3854590abb3aeba48005, type: 2}
   m_IsPrefabParent: 0
@@ -671,6 +687,21 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.0010000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 114815124580074428, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_Text
+      value: Taking a Vacation
+      objectReference: {fileID: 0}
+    - target: {fileID: 114911878079856652, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_Text
+      value: "Astronauts can take a virtual \nvacation to locations on Earth. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888888969510952, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 72272049cf4f3854590abb3aeba48005, type: 2}
@@ -997,6 +1028,22 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.0010000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 114815124580074428, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_Text
+      value: Interacting With Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 114911878079856652, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_Text
+      value: "Astronauts would be able to \nshare a pre-recorded meal \nwith their
+        family. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888888969510952, guid: 72272049cf4f3854590abb3aeba48005,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 72272049cf4f3854590abb3aeba48005, type: 2}
