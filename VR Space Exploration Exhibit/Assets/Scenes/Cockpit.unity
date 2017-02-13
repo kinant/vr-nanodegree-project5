@@ -1449,50 +1449,6 @@ Prefab:
       propertyPath: m_Name
       value: cockpit_scene
       objectReference: {fileID: 0}
-    - target: {fileID: 1393253484656232, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1974566375871048, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1868385432953698, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1299342214284614, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1673799686978134, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945133643043434, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1625953136274026, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1937928262201844, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311412045204162, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1789293261600380, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1036279188238132, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97f78fef0cddc4c9ea5e14dbf96a2bcd, type: 2}
   m_IsPrefabParent: 0
