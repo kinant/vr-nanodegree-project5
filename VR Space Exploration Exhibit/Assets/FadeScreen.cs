@@ -9,6 +9,10 @@ public class FadeScreen : MonoBehaviour {
 	public float fadeSpeed = 1.5f;
 	public bool sceneStarting = true;
 
+	void Awake(){
+		//fadeOverlay.enabled = true;
+	}
+
 	void Update(){
 		if (sceneStarting) {
 			StartScene ();
