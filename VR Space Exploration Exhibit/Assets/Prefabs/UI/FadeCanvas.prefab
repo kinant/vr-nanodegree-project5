@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e8b08cb57b241bf90aa117c1c589db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOverlay: {fileID: 0}
+  fadeOverlay: {fileID: 114355748191876022}
   fadeSpeed: 1.5
   sceneStarting: 1
 --- !u!222 &222131227824835862
