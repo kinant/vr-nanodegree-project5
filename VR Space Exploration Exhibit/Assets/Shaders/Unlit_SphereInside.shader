@@ -6,7 +6,7 @@
 
 Shader "Custom/Unlit_SphereInside" {
 Properties {
-	_MainTex ("Base (RGB)", 2D) = "white" {}
+	_MainTex ("Base (RGB)", 2D) = "black" {}
 }
 
 SubShader {
