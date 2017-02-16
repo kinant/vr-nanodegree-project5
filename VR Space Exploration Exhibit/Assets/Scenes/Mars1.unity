@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.49007124, g: 0.3099368, b: 0.25065094, a: 1}
+  m_IndirectSpecularColor: {r: 0.4901082, g: 0.3096975, b: 0.25049278, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,7 +55,7 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 4
     m_Resolution: 2
-    m_BakeResolution: 4
+    m_BakeResolution: 20
     m_TextureWidth: 1024
     m_TextureHeight: 1024
     m_AO: 0
@@ -612,7 +612,7 @@ Prefab:
     - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
         type: 2}
       propertyPath: m_Text
-      value: Project Mars 2020
+      value: Project Mars 2030
       objectReference: {fileID: 0}
     - target: {fileID: 1332515272425652, guid: fb2284945afcb428b882021c31a114b5, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -1230,7 +1230,7 @@ Prefab:
     - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
         type: 2}
       propertyPath: m_Text
-      value: Project Mars 2020
+      value: Project Mars 2030
       objectReference: {fileID: 0}
     - target: {fileID: 114947981702411016, guid: fb2284945afcb428b882021c31a114b5,
         type: 2}
@@ -1459,7 +1459,7 @@ Prefab:
     - target: {fileID: 114909241479491394, guid: fb2284945afcb428b882021c31a114b5,
         type: 2}
       propertyPath: m_Text
-      value: Project Mars 2020
+      value: Project Mars 2030
       objectReference: {fileID: 0}
     - target: {fileID: 1685979527140388, guid: fb2284945afcb428b882021c31a114b5, type: 2}
       propertyPath: m_StaticEditorFlags
